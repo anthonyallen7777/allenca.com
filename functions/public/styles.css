@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: 'Ubuntu', serif;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: black;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.p-name {
+  color: #383838;
+}
+
+.page-header {
+  border-top: 3px solid black;
+  border-bottom: 1px solid black;
+}
+
+.page-header .wrapper {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navigation {
+  margin-left: 50%;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  display: block;
+  width: 75px;
+  height: 75px;
+}
+
+.page-header .p-name {
+  margin-left: 5px;
+  font-size: 1.8em;
+}
+
+.page-content {
+  flex-grow: 3;
+}
+
+.page-content .wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
+.resume {
+  object-fit: scale-down;
+  width: 60%;
+  height: 60%;
+}
+
+.page-footer .wrapper {
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 10%;
+  border-top: 1px solid #606360;
+}
+
+.page-footer ul {
+  list-style-type: none;
+}
+
+.footer-column-1 {
+  white-space: nowrap;
+  font-size: 1em;
+  padding-left: 5%;
+}
+
+.footer-column-1 h2,
+.footer-column-1 p {
+  margin-top:0;
+}
+
+.footer-column-2 {
+  padding-left: 5%;
+}
+
+.socials {
+  padding: 0;
+}
+
+.socials li {
+  padding-bottom: 10px;
+}
+
+.socials a {
+  display: flex;
+  align-items:center;
+}
+
+.socials a img {
+  width: 25px;
+  height: 25px;
+}
+
+.socials span {
+  padding-left: 5px;
+}
+
+
+.grey {
+  color: #606360;
+}
+
+.footer-column-3 {
+  padding-left: 5%;
+}
+
+@media screen and (max-width: 800px) {
+  .page-header .p-name {
+    font-size: 1.2em;
+  }
+  .navigation {
+    margin-left: 25%;
+  }
+
+  .page-footer .wrapper {
+    font-size: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+  }
+
+  .socials a img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .page-footer .wrapper {
+    font-size: 60%;
+  }
+}
