@@ -1,0 +1,8 @@
+.ProfilePic {
+    height: 100%;
+}
+
+.ProfilePic img {
+    height: 100%;
+    border-radius: 50%;
+}
