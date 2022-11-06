@@ -1,21 +1,19 @@
 import React from "react";
+import FooterName from "./FooterName/FooterName";
+import FooterLinks from "./FooterLinks/FooterLinks";
+import WebsiteAttribution from './WebsiteAttribution/WebsiteAttribution';
+
+import classes from './Footer.module.css';
 
 const footer = () => {
     return (
-        <React.Fragment>
-        <ul>
-            <li>Christopher Allen</li>
-            <li>Christopher Allen</li>
-        </ul>
-        <ul>
-            <li>Christopher Allen</li>
-            <li>Christopher Allen</li>
-        </ul>
-        <ul>
-            <li>Christopher Allen</li>
-            <li>Christopher Allen</li>
-        </ul>
-    </React.Fragment>
+        <footer>
+            <div className={classes.Footer}>
+                <FooterName />
+                <FooterLinks />
+                <WebsiteAttribution />
+            </div>
+        </footer>
     );
 };
 
