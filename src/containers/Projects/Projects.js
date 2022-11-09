@@ -7,15 +7,11 @@ import Footer from '../../components/Footer/Footer';
 const projects = () => {
     return (
         <React.Fragment>
-            <header>
-                <NavBar />
-            </header>
+            <NavBar />
             <main className={classes.Body}>
                 <h3>No projects yet!</h3>
             </main>
-            <footer>
-                <Footer />
-            </footer>
+            <Footer />
         </React.Fragment>
     );
 };

@@ -7,7 +7,7 @@ import classes from './Footer.module.css';
 
 const footer = () => {
     return (
-        <footer>
+        <footer className={classes.Test}>
             <div className={classes.Footer}>
                 <FooterName />
                 <FooterLinks />
