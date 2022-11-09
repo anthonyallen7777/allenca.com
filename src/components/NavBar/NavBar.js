@@ -8,7 +8,9 @@ const navBar = () => {
     return (
         <header className={classes.Header}>
             <div className={classes.NavBar}>
-                <img className={classes.ProfilePic} src={profile} alt="Christopher Allen's profile" />
+                <NavLink to="/">
+                    <img className={classes.ProfilePic} src={profile} alt="Christopher Allen's profile" />
+                </NavLink>
                 <NavLink to="/" className={classes.PName}>Christopher Allen</NavLink>
                 <nav className={classes.Navigation}>
                     <ul>
