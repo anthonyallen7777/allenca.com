@@ -12,13 +12,13 @@ const navBar = () => {
                     <img className={classes.ProfilePic} src={profile} alt="Christopher Allen's profile" />
                 </NavLink>
                 <NavLink to="/" className={classes.PName}>Christopher Allen</NavLink>
-                <nav className={classes.Navigation}>
+                {/* <nav className={classes.Navigation}>
                     <ul>
                         <li>
                             <p><NavLink className={classes.Link} to="/projects/">Projects</NavLink></p>
                         </li>
                     </ul>
-                </nav>
+                </nav> */}
             </div>
         </header>
     );
