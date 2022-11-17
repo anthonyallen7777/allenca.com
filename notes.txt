@@ -1,0 +1,5 @@
+colors
+main
+background-color: aliceblue;
+secondary
+background-color: rgb(44, 44, 138);

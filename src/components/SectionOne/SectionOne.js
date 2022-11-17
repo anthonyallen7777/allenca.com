@@ -78,8 +78,9 @@ const SectionOne = () => {
                         <p className={classes.ReactTitle}>React Developer</p>
                         <div className={classes.Location}>
                             <p>From Magnolia, TX</p>
-                            <span className="material-symbols-outlined">
-                                location_on</span>
+                            <span
+                            className={[classes.LocationLogo, "material-icons"].join(' ')}
+                            >location_on</span>
                         </div>
                         <div className={classes.SectionOneLinks}>
                             <img
