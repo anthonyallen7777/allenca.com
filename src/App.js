@@ -1,18 +1,16 @@
-import React from 'react';
-import classes from './App.module.css';
-import { Routes, Route, Navigate } from 'react-router-dom';
-
-import Resume from './containers/Resume/Resume';
-import Projects from './containers/Projects/Projects';
+import './App.css';
+import SectionOne from './components/SectionOne/SectionOne';
+import SectionTwo from './components/SectionTwo/SectionTwo';
+import SectionThree from './components/SectionThree/SectionThree';
+import SectionFour from './components/SectionFour/SectionFour';
 
 function App() {
   return (
-    <div className={classes.App}>
-      <Routes>
-        <Route path="/" element={<Resume />} />
-        <Route path="/projects/" element={<Projects />} />
-        <Route path="/*" element={<Navigate to="/"/>} />
-      </Routes>
+    <div className="App">
+      <SectionOne />
+      <SectionTwo />
+      <SectionThree />
+      <SectionFour />
     </div>
   );
 }

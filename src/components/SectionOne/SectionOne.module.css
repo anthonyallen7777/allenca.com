@@ -1,0 +1,148 @@
+.SectionOneContainer {
+    background-color: rgb(168, 34, 0);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /* margin-top: 10%; */
+    box-sizing: border-box;
+}
+
+.LeftSide {
+    box-sizing: border-box;
+    padding-top: 10%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(44, 44, 138);
+}
+
+.RightSide {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.HelloText {
+    text-align: center;
+    margin-left: 10%;
+    height: 5%;
+    width: 30%;
+    background-color: aliceblue;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TitleContainer {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    height: 30%;
+    width: 100%;
+}
+
+.TitleContainer p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: aliceblue;
+}
+
+.SectionOneInfoContainer {
+    background-color: aliceblue;
+    padding-top: 15%;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Iam {
+    text-align: center;
+    margin-left: 10%;
+    height: 10%;
+    width: 30%;
+    background-color: rgb(44, 44, 138);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.ReactTitle {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SectionOneLinks {
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo {
+    height: 32px;
+    width: 32px;
+    font-size: 36px;
+    margin: 0 1%;
+}
+
+/*Right Side*/
+
+.ProfileContainer {
+    display: flex;
+    background-color: aliceblue;
+    height: 100%;
+    width: 445px;
+    position: relative;
+    overflow: hidden;
+}
+
+.SectionOneProfileMain {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: grayscale(0%);
+}
+.SectionOneProfileFilter1 {
+    margin-left: 4%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: grayscale(40%);
+}
+.SectionOneProfileFilter2 {
+    margin-left: 6%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: grayscale(60%);
+    filter: blur(1px);
+}
+.SectionOneProfileFilter3 {
+    margin-left: 8%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: grayscale(80%);
+    filter: blur(2px);
+}
+
+.SectionOneProfileFilter4 {
+    margin-left: 10%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: grayscale(100%);
+    filter: blur(3px);
+}
