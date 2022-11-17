@@ -1,0 +1,81 @@
+.SectionFourContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.ContactMeContainer {
+    background-color: teal;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.ContactInfoContainer {
+    background-color: rgb(160, 160, 236);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PhoneNumberContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.EmailContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ContactInfoTitle {
+    padding-right: 1%;
+}
+
+.ContactMeFormContainer {
+    background-color: rgb(230, 118, 118);
+    width: 50%;
+}
+
+.ContactMeTitle {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.SendMe {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.FormContainer {
+
+}
+
+.Form {
+
+}
+
+
+.Footer {
+    height: 10%;
+    width: 100%;
+    background-color: brown;
+}
+
+.NameContainer {
+
+}
+
+.PersonalSiteContainer {
+
+}
