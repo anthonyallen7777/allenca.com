@@ -1,0 +1,67 @@
+.SectionThreeContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(44, 44, 138);
+}
+
+.CurrentProjectsTitle {
+    height: 20%;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.ProjectsContainer {
+    height: 80%;
+    width: 100%;
+}
+
+.ProjectTitleContainer {
+    font-size: 1.5rem;
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+.ProjectTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 20%;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-top-right-radius: 5px;
+}
+
+.ProjectTitle p {
+    margin: 0;
+    margin-right: 5%;
+}
+
+.ProjectTitleBorderDiv {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid black;
+}
+
+.ProjectTitleBorderDiv:after {
+    content: '\200b';
+}
+
+.ProjectSnapshot {
+    height: 90%;
+}
+
+.ProjectSnapshot img {
+    height: 100%;
+    width: 100%;
+}

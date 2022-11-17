@@ -20,11 +20,11 @@ const SectionTwo = () => {
                     <p>Tech Stacks</p>
                 </div>
                 <div className={classes.TechStackIcons}>
-                    <FaReact />
-                    <IoLogoJavascript />
-                    <DiHtml5 />
-                    <DiCss3 />
-                    <DiNodejs />
+                    <FaReact className={classes.Icon} />
+                    <IoLogoJavascript className={classes.Icon}  />
+                    <DiHtml5 className={classes.Icon}  />
+                    <DiCss3 className={classes.Icon}  />
+                    <DiNodejs className={classes.Icon}  />
                 </div>
             </div>
         </div>

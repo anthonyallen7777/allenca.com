@@ -1,8 +1,27 @@
 import React from "react";
+import classes from './SectionThree.module.css';
+import JstSentencesSnapshot from '../../assets/JstSentencesSnapshot.png';
 
-const SectionThree = (props) => {
+const SectionThree = () => {
     return (
-        <div></div>
+        <div className={classes.SectionThreeContainer}>
+            <div className={classes.CurrentProjectsTitle}>
+                <p>My Current Projects</p>
+            </div>
+            <div className={classes.ProjectsContainer}>
+                <div className={classes.JstSentencesContainer}>
+                    <div className={classes.ProjectTitleContainer}>
+                        <div className={classes.ProjectTitle}>
+                            <p>JstSentences</p>
+                        </div>
+                        <p className={classes.ProjectTitleBorderDiv}></p>
+                    </div>
+                    <div className={classes.ProjectSnapshot}>
+                        <img src={JstSentencesSnapshot} alt="JstSentences Project Snapshot" />
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 };
 

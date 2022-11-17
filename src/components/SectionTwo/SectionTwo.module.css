@@ -38,6 +38,10 @@
     padding: 2% 0;
 }
 
+.Icon {
+    padding: 0 1%;
+}
+
 .AboutMe {
     color: aliceblue;
     background-color: rgb(44, 44, 138);
