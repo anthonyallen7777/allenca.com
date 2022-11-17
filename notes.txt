@@ -3,3 +3,15 @@ main
 background-color: aliceblue;
 secondary
 background-color: rgb(44, 44, 138);
+
+@media (max-width: 1000px) {
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 400px) {
+}

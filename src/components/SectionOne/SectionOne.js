@@ -49,19 +49,21 @@ const SectionOne = () => {
         content = (
             <div className={classes.SectionOneContainer}>
                 <div className={classes.LeftSide}>
-                    <div className={classes.HelloText}>
-                        <CSSTransition
-                        in={showTextAnimation}
-                        timeout={textAnimationTiming}
-                        classNames={'fade-sectionOneFirstText'}
-                        nodeRef={profileTextOne}
-                        >
-                            <p ref={profileTextOne}>Hello, my name is</p>
-                        </CSSTransition>
-                    </div>
-                    <div className={classes.TitleContainer}>
-                        <p>Christopher</p>
-                        <p>Allen</p>
+                    <div className={classes.HelloAndTitle}>
+                        <div className={classes.HelloText}>
+                            <CSSTransition
+                            in={showTextAnimation}
+                            timeout={textAnimationTiming}
+                            classNames={'fade-sectionOneFirstText'}
+                            nodeRef={profileTextOne}
+                            >
+                                <p ref={profileTextOne}>Hello, my name is</p>
+                            </CSSTransition>
+                        </div>
+                        <div className={classes.TitleContainer}>
+                            <p>Christopher</p>
+                            <p>Allen</p>
+                        </div>
                     </div>
                     <div className={classes.SectionOneInfoContainer}>
                         <div className={classes.Iam}>

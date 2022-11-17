@@ -58,10 +58,45 @@
 }
 
 .ProjectSnapshot {
-    height: 90%;
+    height: 100%;
 }
 
 .ProjectSnapshot img {
-    height: 100%;
     width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .CurrentProjectsTitle {
+        font-size: 2.8rem;
+    }
+    .ProjectTitleContainer {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .CurrentProjectsTitle {
+        font-size: 2.6rem;
+    }
+    .ProjectTitleContainer {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .CurrentProjectsTitle {
+        font-size: 2rem;
+    }
+    .ProjectTitleContainer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .CurrentProjectsTitle {
+        font-size: 1.5rem;
+    }
+    .ProjectTitleContainer {
+        font-size: 0.6rem;
+    }
 }

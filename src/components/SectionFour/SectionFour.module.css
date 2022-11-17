@@ -5,18 +5,123 @@
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+    background-color: rgb(44, 44, 138);
 }
 
 .ContactMeContainer {
-    background-color: teal;
-    height: 80%;
+    height: 90%;
     width: 100%;
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .ContactInfoContainer {
-    background-color: rgb(160, 160, 236);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PhoneNumberAndEmailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2%;
+    width: 20%;
+    background-color: rgb(229, 236, 243);
+}
+
+.ActualContactInfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    background-color: rgb(229, 236, 243);
+}
+
+.ContactMeFormContainer {
+    width: 50%;
+    background-color: rgb(229, 236, 243);
+    border-radius: 5px;
+}
+
+.ContactMeTitle {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.SendMe {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.FormContainer {
+    font-size: 1rem;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 5%;
+}
+
+.NameInputContainer,
+.SubjectInputContainer,
+.EmailInputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+.NameInputContainer input,
+.SubjectInputContainer input,
+.EmailInputContainer input {
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.EmailBodyInputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+.EmailBodyInputContainer textarea {
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.Footer {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    color: aliceblue;
+    border-top: 2px solid aliceblue;
+}
+
+.NameContainer {
+    height: 100%;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -24,58 +129,91 @@
     align-items: center;
 }
 
-.PhoneNumberContainer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.NameContainer p {
+    margin: 1% auto;
 }
 
-.EmailContainer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.ContactInfoTitle {
-    padding-right: 1%;
-}
-
-.ContactMeFormContainer {
-    background-color: rgb(230, 118, 118);
-    width: 50%;
-}
-
-.ContactMeTitle {
-    background-color: red;
-    display: flex;
-    justify-content: center;
-}
-
-.SendMe {
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-}
-
-.FormContainer {
-
-}
-
-.Form {
-
-}
-
-
-.Footer {
-    height: 10%;
-    width: 100%;
-    background-color: brown;
-}
-
-.NameContainer {
-
+.NameContainer :last-child {
+    font-weight: normal;
 }
 
 .PersonalSiteContainer {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 1000px) {
+    .ContactMeContainer {
+        font-size: 1.2rem;
+    }
+    .SendMe {
+        font-size: 1.1rem;
+    }
+    .FormContainer {
+        font-size: 1rem;
+    }
+    .Footer {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .ContactMeContainer {
+        flex-direction: column;
+        font-size: 1.2rem;
+    }
+    .ContactInfoContainer {
+        width: 100%;
+        margin-bottom: 1%;
+    }
+    .ContactMeFormContainer {
+        width: 100%;
+        height: 90%;
+    }
+    .SendMe {
+        font-size: 1.1rem;
+    }
+    .FormContainer {
+        font-size: 0.8rem;
+    }
+    .Footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .ContactMeContainer {
+        font-size: 1rem;
+    }
+    .SendMe {
+        font-size: 1rem;
+    }
+    .FormContainer {
+        font-size: 0.6rem;
+    }
+    .Footer {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .ContactMeContainer {
+        font-size: 0.6rem;
+    }
+    .SendMe {
+        font-size: 0.6rem;
+    }
+    .FormContainer {
+        font-size: 0.6rem;
+    }
+    .Footer {
+        font-size: 0.6rem;
+    }
 }
