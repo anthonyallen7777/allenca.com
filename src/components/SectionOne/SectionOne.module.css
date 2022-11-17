@@ -130,16 +130,14 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    filter: grayscale(60%);
-    filter: blur(1px);
+    filter: grayscale(60%) blur(1px);
 }
 .SectionOneProfileFilter3 {
     margin-left: 8%;
     height: 100%;
     width: 100%;
     position: absolute;
-    filter: grayscale(80%);
-    filter: blur(2px);
+    filter: grayscale(80%) blur(2px);
 }
 
 .SectionOneProfileFilter4 {
@@ -147,6 +145,5 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    filter: grayscale(100%);
-    filter: blur(3px);
+    filter: grayscale(100%) blur(3px);
 }
