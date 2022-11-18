@@ -95,11 +95,26 @@
     align-items: center;
 }
 
+.SectionOneLinks a {
+    padding: 0 1%;
+}
+
 .Logo {
     height: 32px;
     width: 32px;
     font-size: 36px;
     margin: 0 1%;
+}
+
+.material-icons:visited {
+    color: black;
+    background-color: black;
+    font-size: 48px;
+}
+
+.material-icons:active {
+    color: black;
+    background-color: black;
 }
 
 /*Right Side*/

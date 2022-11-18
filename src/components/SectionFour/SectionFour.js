@@ -7,7 +7,7 @@ const SectionFour = () => {
     }
 
     return (
-        <div className={classes.SectionFourContainer}>
+        <div className={classes.SectionFourContainer} id="ContactMe">
             <div className={classes.ContactMeContainer}>
                 <div className={classes.ContactInfoContainer}>
                     <div className={classes.PhoneNumberAndEmailContainer}>

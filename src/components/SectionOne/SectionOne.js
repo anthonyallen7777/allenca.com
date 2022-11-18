@@ -47,7 +47,7 @@ const SectionOne = () => {
     let content = null;
     if (!loading) {
         content = (
-            <div className={classes.SectionOneContainer}>
+            <div className={classes.SectionOneContainer} id="Landing">
                 <div className={classes.LeftSide}>
                     <div className={classes.HelloAndTitle}>
                         <div className={classes.HelloText}>
@@ -85,15 +85,25 @@ const SectionOne = () => {
                             >location_on</span>
                         </div>
                         <div className={classes.SectionOneLinks}>
-                            <img
-                            className={classes.Logo}
-                            src={LinkedInLogo} alt="LinkedIn Logo" />
-                            <img
-                            className={classes.Logo}
-                            src={GithubLogo} alt="Github Logo" />
-                            <span
-                            className={[classes.Logo, "material-icons"].join(' ')}
-                            >mail</span>
+                            <a
+                            href="https://www.linkedin.com/in/ChrisAnthonyAllen"
+                            target="_blank" rel="noreferrer noopener">
+                                <img
+                                className={classes.Logo}
+                                src={LinkedInLogo} alt="LinkedIn Logo" />
+                            </a>
+                            <a
+                            href="https://github.com/anthonyallen7777"
+                            target="_blank" rel="noreferrer noopener">
+                                <img
+                                className={classes.Logo}
+                                src={GithubLogo} alt="Github Logo" />
+                            </a>
+                            <a href="#ContactMe">
+                                <span
+                                className={[classes.Logo, "material-icons"].join(' ')}
+                                >mail</span>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ import JstSentencesSnapshot from '../../assets/JstSentencesSnapshot.png';
 
 const SectionThree = () => {
     return (
-        <div className={classes.SectionThreeContainer}>
+        <div className={classes.SectionThreeContainer} id="Projects">
             <div className={classes.CurrentProjectsTitle}>
                 <p>My Current Projects</p>
             </div>

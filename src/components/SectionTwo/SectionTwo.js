@@ -8,7 +8,7 @@ import {DiHtml5, DiCss3, DiNodejs} from 'react-icons/di';
 
 const SectionTwo = () => {
     return (
-        <div className={classes.SectionTwoContainer}>
+        <div className={classes.SectionTwoContainer} id="AboutMe">
             <div className={classes.AboutMe}>
                 <div className={classes.AboutMeTitle}>
                     <p>About Me</p>
