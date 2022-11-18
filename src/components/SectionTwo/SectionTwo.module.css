@@ -51,6 +51,14 @@
     justify-content: flex-start;
 }
 
+.AboutMeContainer {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10%;
+}
+
 .AboutMeTitle {
     font-size: 3rem;
 }

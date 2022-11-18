@@ -1,0 +1,38 @@
+.ModalContainer {
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    height: 50%;
+    width: 40%;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 600;
+}
+
+@media (max-width: 1000px) {
+    .ModalContainer {
+        height: 45%;
+    }
+}
+
+@media (max-width: 800px) {
+    .ModalContainer {
+        height: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .ModalContainer {
+        height: 35%;
+    }
+}
+
+@media (max-width: 400px) {
+    .ModalContainer {
+        height: 30%;
+    }
+}

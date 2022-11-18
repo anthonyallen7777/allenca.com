@@ -13,7 +13,9 @@ const SectionTwo = () => {
                 <div className={classes.AboutMeTitle}>
                     <p>About Me</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Quis blandit turpis cursus in. Nullam non nisi est sit amet facilisis. Suscipit tellus mauris a diam maecenas sed enim ut.</p>
+                <div className={classes.AboutMeContainer}>
+                    <p>Ever since I was a kid I was interested in building stuff. I got introduced to programming after that but it was quickly cut short due to life circumstances. I've worked sales and retail jobs here and there since then but never had the opportunity to follow what I truly wanted, programming. I finally sat down and said to myself I want to do this. I want to follow a path I actually care about. So over the course of about a year I put my head to the book and learned what I was so interested in early on, building stuff.</p>
+                </div>
             </div>
             <div className={classes.TechStackContainer}>
                 <div className={classes.TechStackTitle}>
