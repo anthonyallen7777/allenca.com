@@ -12,12 +12,22 @@ const SectionThree = () => {
                 <div className={classes.JstSentencesContainer}>
                     <div className={classes.ProjectTitleContainer}>
                         <div className={classes.ProjectTitle}>
+                            <a
+                            href="https://jstsentences.web.app/"
+                            target="_blank" rel="noreferrer noopener"
+                            >
                             <p>JstSentences</p>
+                            </a>
                         </div>
                         <p className={classes.ProjectTitleBorderDiv}></p>
                     </div>
                     <div className={classes.ProjectSnapshot}>
+                        <a
+                        href="https://jstsentences.web.app/"
+                        target="_blank" rel="noreferrer noopener"
+                        >
                         <img src={JstSentencesSnapshot} alt="JstSentences Project Snapshot" />
+                        </a>
                     </div>
                 </div>
             </div>
