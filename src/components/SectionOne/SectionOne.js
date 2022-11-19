@@ -80,9 +80,13 @@ const SectionOne = () => {
                         <p className={classes.ReactTitle}>React Developer</p>
                         <div className={classes.Location}>
                             <p>From Magnolia, TX</p>
-                            <span
-                            className={[classes.LocationLogo, "material-icons"].join(' ')}
-                            >location_on</span>
+                            <a
+                            href="https://www.google.com/maps/place/Magnolia,+TX"
+                            target="_blank" rel="noreferrer noopener">
+                                <span
+                                className={[classes.LocationLogo, "material-icons"].join(' ')}
+                                >location_on</span>
+                            </a>
                         </div>
                         <div className={classes.SectionOneLinks}>
                             <a

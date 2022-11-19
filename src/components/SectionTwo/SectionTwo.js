@@ -4,7 +4,7 @@ import classes from './SectionTwo.module.css';
 //Logos
 import {FaReact} from 'react-icons/fa';
 import {IoLogoJavascript} from 'react-icons/io'
-import {DiHtml5, DiCss3, DiNodejs} from 'react-icons/di';
+import {DiHtml5, DiCss3, DiNodejs, DiFirebase} from 'react-icons/di';
 
 const SectionTwo = () => {
     return (
@@ -19,14 +19,33 @@ const SectionTwo = () => {
             </div>
             <div className={classes.TechStackContainer}>
                 <div className={classes.TechStackTitle}>
-                    <p>Tech Stacks</p>
+                    <p>My Tech Stack</p>
                 </div>
                 <div className={classes.TechStackIcons}>
-                    <FaReact className={classes.Icon} />
-                    <IoLogoJavascript className={classes.Icon}  />
-                    <DiHtml5 className={classes.Icon}  />
-                    <DiCss3 className={classes.Icon}  />
-                    <DiNodejs className={classes.Icon}  />
+                    <div className={classes.IndividualStack}>
+                        <DiHtml5 className={classes.Icon}  />
+                        <p>React</p>
+                    </div>
+                    <div className={classes.IndividualStack}>
+                        <DiCss3 className={classes.Icon}  />
+                        <p>CSS</p>
+                    </div>
+                    <div className={classes.IndividualStack}>
+                        <IoLogoJavascript className={classes.Icon}  />
+                        <p>Javascript</p>
+                    </div>
+                    <div className={classes.IndividualStack}>
+                        <DiNodejs className={classes.Icon}  />
+                        <p>NodeJS</p>
+                    </div>
+                    <div className={classes.IndividualStack}>
+                        <FaReact className={classes.Icon} />
+                        <p>React</p>
+                    </div>
+                    <div className={classes.IndividualStack}>
+                        <DiFirebase className={classes.Icon}  />
+                        <p>Firebase</p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -25,6 +25,15 @@
     margin-top: 0;
 }
 
+.IndividualStack  {
+    padding-right: 5%;
+}
+
+.IndividualStack p {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
 .TechStackIcons {
     display: flex;
     justify-content: center;
@@ -34,11 +43,6 @@
     border-radius: 25px;
     width: 80%;
     color: aliceblue;
-    padding: 2% 0;
-}
-
-.Icon {
-    padding: 0 1%;
 }
 
 .AboutMe {
@@ -67,6 +71,9 @@
     .TechStackTitle {
         font-size: 3.2rem;
     }
+    .IndividualStack p {
+        font-size: 1.2rem;
+    }
     .TechStackIcons {
         font-size: 4.8rem;
     }
@@ -78,6 +85,12 @@
 @media (max-width: 800px) {
     .TechStackTitle {
         font-size: 3rem;
+    }
+    .IndividualStack  {
+        padding-right: 2%;
+    }
+    .IndividualStack p {
+        font-size: 1rem;
     }
     .TechStackIcons {
         font-size: 4rem;
@@ -91,6 +104,12 @@
     .TechStackTitle {
         font-size: 2.8rem;
     }
+    .IndividualStack  {
+        padding-right: 0;
+    }
+    .IndividualStack p {
+        font-size: 0.8rem;
+    }
     .TechStackIcons {
         font-size: 3.8rem;
     }
@@ -102,6 +121,9 @@
 @media (max-width: 400px) {
     .TechStackTitle {
         font-size: 2.5rem;
+    }
+    .IndividualStack p {
+        font-size: 0.6rem;
     }
     .TechStackIcons {
         font-size: 3.5rem;
